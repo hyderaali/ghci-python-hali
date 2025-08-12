@@ -20,8 +20,9 @@ pytest -q
 ## Micro‑exercise A (Green PR in ~7 minutes)
 1. Edit `README.md` → add one helpful line under “Run locally”.
 2. In the commit box, select **Create a new branch** named `docs/add-test-instructions`.
-3. **Propose changes → Create pull request**.
-4. Wait for ✅ CI checks, then paste an AI‑drafted PR description (What/Why/How/Tests) and submit.
+3. Run tests with pytest
+4. **Propose changes → Create pull request**.
+5. Wait for ✅ CI checks, then paste an AI‑drafted PR description (What/Why/How/Tests) and submit.
 
 ## Micro‑exercise B (Explain a failing run)
 Use the **instructor‑seeded failing PR** (separate repo or branch). Open the failing check, copy the error snippet, ask AI to explain it simply, and post a comment with root cause + smallest fix.
